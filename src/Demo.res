@@ -15,8 +15,7 @@ type persons = array<person>;
 @genType.import("@textlint/markdown-to-ast")
 type parser;
 
-@genType.import(("path", "dirname"))
 type t = (string)=>unit
-
+@genType.import(("path", "dirname"))
 @bs.val external dirname: t = "dirname"
 let root = dirname("/User/github")
