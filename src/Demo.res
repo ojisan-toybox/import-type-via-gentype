@@ -12,10 +12,12 @@ type person = {
 @genType
 type persons = array<person>;
 
-@genType.import("@textlint/markdown-to-ast")
-type parser;
 
 type t = (string)=>unit
 @genType.import(("path", "dirname"))
 @bs.val external dirname: t = "dirname"
 let root = dirname("/User/github")
+
+type parse;
+@genType.import(("@textlint/markdown-to-ast", "parse"))
+@bs.val external parse: parse = "parse"
