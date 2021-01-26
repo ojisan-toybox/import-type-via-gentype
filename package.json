@@ -12,7 +12,9 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "bs-platform": "*"
+    "@types/node": "^14.14.22",
+    "bs-platform": "*",
+    "gentype": "^3.42.0"
   },
   "dependencies": {
     "@textlint/markdown-to-ast": "^6.3.1"

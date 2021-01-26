@@ -14,5 +14,13 @@
   "bs-dependencies": [],
   "warnings": {
     "error": "+101"
+  },
+  "gentypeconfig": {
+    "language": "typescript",
+    "shims": {},
+    "debug": {
+      "all": false,
+      "basic": false
+    }
   }
 }
